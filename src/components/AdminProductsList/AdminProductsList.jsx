@@ -49,7 +49,7 @@ const AdminProductsList = () => {
                 delete
               </a>,
               <Link to={`/edit/${item.id}`}>edit</Link>,
-              <Link to={`/products/${item.id}`}>more</Link>,
+              <Link to={`/trophies/${item.id}`}>more</Link>,
             ]}
           >
             <List.Item.Meta

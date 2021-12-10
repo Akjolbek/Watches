@@ -3,6 +3,7 @@ import { Card } from "antd";
 
 import { brandsContext } from "../../contexts/brandsContext";
 
+const { Meta } = Card;
 const BrandsList = () => {
   const { getBrands, brands } = useContext(brandsContext);
   useEffect(() => {
@@ -21,10 +22,12 @@ const BrandsList = () => {
     >
       {brands.map((item) => (
         <Card
-          hoverable
-          style={{ width: "240px", height: "240px", margin: "10px" }}
-          cover={<img alt="example" src={item.logo} />}
-        />
+        hoverable
+        style={{ width: 240 }}
+        cover={<img alt="example" src={item.logo} />}
+      >
+        <Meta title="Europe Street beat" description="www.instagram.com" />
+      </Card>
       ))}
     </div>
   );

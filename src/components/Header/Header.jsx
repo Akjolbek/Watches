@@ -22,13 +22,13 @@ const Header = () => {
   }, [])
   const NAV_ITEMS = [
     {
-      title: "BRANDS A-Z",
+      title: "TROPHIES",
       link: "/brands",
       id: 1,
     },
     {
-      title: "WATCHES",
-      link: "/products",
+      title: "STORES",
+      link: "/trophies",
       id: 2,
     },
     {
@@ -70,8 +70,8 @@ const Header = () => {
         <div></div>
         <Link to="/">
           <img
-            width="200px"
-            src="https://content.thewosgroup.com/wosus/logo/wos_since_1924_uk_blk_notag.svg"
+            width="400px"
+            src="https://logos-world.net/wp-content/uploads/2020/05/Chelsea-Logo.png"
             alt=""
           />
         </Link>

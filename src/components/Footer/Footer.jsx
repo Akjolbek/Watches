@@ -77,20 +77,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="https://www.watchesofswitzerland.com/medias/usa-payment-options-group-1121.png?context=bWFzdGVyfHJvb3R8NTA1M3xpbWFnZS9wbmd8aDIwL2hkNS85MTIyMTcxMTI1NzkwLnBuZ3wzZDQ5ZGZhMjc2NjM4MzBlZjZhMjk1NzcyOWEyOGUwYzVjNGZiNzAzZGZmYjQ5Y2U5M2E1MTUxYzU5ZWRmMjVj"
         alt=""
-      />
+      /> */}
 
-      <p style={{ marginTop: "3%", marginLeft: "1%" }}>
+      {/* <p style={{ marginTop: "3%", marginLeft: "1%" }}>
         Copyright © 2021 Watches of Switzerland. All rights reserved.
       </p>
 
       <a style={{ marginLeft: "1%", color: "black" }}>
         The Watches of Switzerland Group Corporate Site
-      </a>
+      </a> */}
 
-      <div className="img2">
+      {/* <div className="img2">
         <a>
           <img
             src="https://a0a73a99cbfedf7e3b28-a6fed8c1b4fb343f790cc1a783af6690.ssl.cf3.rackcdn.com/footer/wos-corp-logo.png"
@@ -101,7 +101,7 @@ const Footer = () => {
             alt=""
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

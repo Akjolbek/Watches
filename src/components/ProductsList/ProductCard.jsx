@@ -31,7 +31,7 @@ const ProductCard = ({ item }) => {
             setCheckInCart(checkItemInCart(item.id));
           }}
         />,
-        <Link to={`/products/${item.id}`}>
+        <Link to={`/trophies/${item.id}`}>
           <EllipsisOutlined
             style={{ color: "black", fontSize: "25px" }}
             key="ellipsis"

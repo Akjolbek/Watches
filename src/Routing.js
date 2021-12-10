@@ -20,7 +20,7 @@ const Routing = () => {
       id: 1,
     },
     {
-      link: "/products",
+      link: "/trophies",
       element: <ProductsList />,
       id: 2,
     },
@@ -35,7 +35,7 @@ const Routing = () => {
       id: 4,
     },
     {
-      link: "/products/:id",
+      link: "/trophies/:id",
       element: <DetailsProduct />,
       id: 5,
     },
